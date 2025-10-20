@@ -5,20 +5,20 @@
   "data_fi": "2023-08-18",
   "artistes": [
     {
-      "nom": "Artista 1",
+      "nom": "Dave Grohl",
       "genere": "Rock",
-      "cançons": [
-        "Cançó 1",
-        "Cançó 2",
-        "Cançó 3"
+      "cancions": [
+        "Everlong",
+        "The Pretender",
+        "Best of You"
       ]
     },
     {
-      "nom": "Artista 2",
+      "nom": "Harry Styles",
       "genere": "Pop",
-      "cançons": [
-        "Cançó 4",
-        "Cançó 5"
+      "cancions": [
+        "As It Was",
+        "Adore You"
       ]
     }
   ],
@@ -26,16 +26,16 @@
     {
       "nom": "Escenari Principal",
       "horari": "20:00 - 00:00",
-      "artistes_programats": [
-        "Artista 1",
-        "Artista 2"
+      "artistas": [
+        "Dave Grohl",
+        "Harry Styles"
       ]
     },
     {
       "nom": "Escenari Secundari",
       "horari": "18:00 - 23:00",
-      "artistes_programats": [
-        "Artista 1"
+      "artistas": [
+        "Dave Grohl"
       ]
     }
   ]
