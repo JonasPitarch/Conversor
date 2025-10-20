@@ -1,0 +1,42 @@
+{
+  "titol": "Festival de Música",
+  "descripcio": "Programació del festival de música",
+  "data_inici": "2023-08-15",
+  "data_fi": "2023-08-18",
+  "artistes": [
+    {
+      "nom": "Artista 1",
+      "genere": "Rock",
+      "cançons": [
+        "Cançó 1",
+        "Cançó 2",
+        "Cançó 3"
+      ]
+    },
+    {
+      "nom": "Artista 2",
+      "genere": "Pop",
+      "cançons": [
+        "Cançó 4",
+        "Cançó 5"
+      ]
+    }
+  ],
+  "escenaris": [
+    {
+      "nom": "Escenari Principal",
+      "horari": "20:00 - 00:00",
+      "artistes_programats": [
+        "Artista 1",
+        "Artista 2"
+      ]
+    },
+    {
+      "nom": "Escenari Secundari",
+      "horari": "18:00 - 23:00",
+      "artistes_programats": [
+        "Artista 1"
+      ]
+    }
+  ]
+}
