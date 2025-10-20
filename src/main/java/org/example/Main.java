@@ -11,7 +11,7 @@ import java.io.File;
 import java.io.IOException;
 
 public class Main {
-    public static void main(String[] args) throws JsonProcessingException {
+    public static void main(String[] args){
         ObjectMapper om = new ObjectMapper();
         File f = new File("src/main/resources/musica.json");
 
@@ -34,7 +34,7 @@ public class Main {
                 File out = new File("src/main/resources/festival.xml");
                 xml.writeValue(out, festival);
 
-            } catch (IOException e) {
+            } catch (Exception e) {
                 throw new RuntimeException(e);
             }
         } else {
